@@ -104,12 +104,12 @@ export default function HomePage() {
   return (
     <div className="relative flex-1 flex flex-col justify-center items-center text-center h-full px-4 overflow-hidden">
       {/* Background Icons */}
-      {icons.map(({ Icon, top, left, right, size }, index) => (
+      {icons.map(({ Icon, top, left, size }, index) => (
         <Icon
           key={index}
           size={size}
           className="absolute text-gray-400 dark:text-gray-600 opacity-30"
-          style={{ top, left, right }}
+          style={{ top, left }}
         />
       ))}
       <h1 className="text-4xl md:text-6xl font-bold mb-6">
