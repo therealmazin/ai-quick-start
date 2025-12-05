@@ -1,11 +1,11 @@
 ---
-title: Prompt Engineering Basics
+title: Prompt Basics
 description: Learn how to write better prompts to get better AI responses
 ---
 
-# Prompt Engineering Basics
+# Prompt Basics
 
-"Prompt engineering" is just a fancy way of saying "how to talk to AI effectively." The better your question or request, the better the AI's response will be.
+"Prompt engineering" sounds fancy, but it's really just **how to ask AI good questions**. The better you ask, the better the answer. Simple as that.
 
 ## Why Does This Matter?
 
@@ -13,114 +13,100 @@ description: Learn how to write better prompts to get better AI responses
 > "Help me with my email."
 
 **Better prompt:**
-> "Write a professional email to my colleague asking to reschedule our meeting from Tuesday to Thursday. Keep it brief and friendly."
+> "Write a professional email to all staff about the office closure from December 24-26 for the holidays. Keep the tone friendly and include the emergency contact number (555-1234). Keep it under 150 words."
 
 The second prompt gives the AI clear direction, so you get a useful response the first time.
 
-## The 5 Golden Rules
+## What Makes a Good Prompt?
 
-### 1. Be Specific
+Think about these 5 things when writing a prompt:
 
-**Instead of:** "Write something about climate change."
+| Question | Examples |
+|----------|----------|
+| **Who is it for?** (audience) | All staff, department chairs, new employees |
+| **What specifically?** (details) | Dates, numbers, budget, size, timeline |
+| **How should it sound?** (tone) | Friendly, professional, casual, formal |
+| **How much?** (constraints) | Word count, time limit, number of items |
+| **What format?** | Email, checklist, bullet points, numbered list |
 
-**Try:** "Write a 3-paragraph summary of the main causes of climate change, suitable for a university newsletter."
-
-### 2. Give Context
-
-**Instead of:** "Is this good?"
-
-**Try:** "I'm writing a grant proposal for educational technology. Here's my draft introduction. Is it clear and compelling? What could be improved?"
-
-### 3. Specify the Format
-
-**Instead of:** "Tell me about project management."
-
-**Try:** "Give me 5 bullet points on best practices for project management. Keep each point to 1-2 sentences."
-
-### 4. Use Examples When Helpful
-
-**Instead of:** "Write a catchy headline."
-
-**Try:** "Write a catchy headline for our department newsletter. Something like 'Fall Semester Highlights' or 'What's New in Student Services' but more engaging."
-
-### 5. Break Down Complex Tasks
-
-**Instead of:** "Help me plan our annual conference."
-
-**Try:** "I'm planning our department's annual conference. Let's start with the agenda. We need sessions in the morning, a lunch break, and afternoon workshops. Can you suggest a timeline for a one-day event?"
-
-## The RICE Framework
-
-A simple way to structure your prompts:
-
-| Letter | Meaning | Example |
-|--------|---------|---------|
-| **R** | Role | "Act as an experienced grant writer..." |
-| **I** | Instructions | "Write a proposal summary that..." |
-| **C** | Context | "This is for a federal education grant..." |
-| **E** | Examples | "Similar to this example: [example]" |
-
-### RICE in Action
-
-**Full prompt using RICE:**
-
-> **Role:** You are an experienced academic advisor.
->
-> **Instructions:** Help me write a response to a student who is asking about changing their major.
->
-> **Context:** The student is a sophomore who wants to switch from Business to Psychology. They're worried about extending their graduation timeline.
->
-> **Example:** Keep the tone similar to this: "Thank you for reaching out. Changing majors is a significant decision, and I'm here to help you navigate this process."
-
-## Common Mistakes to Avoid
-
-<Callout type="warn">
-Avoid these common prompting mistakes:
+<Callout type="info">
+You've been doing this naturally! When you ask a colleague for help, you give them context. Same thing here.
 </Callout>
 
-### Being Too Vague
-- Bad: "Make this better."
-- Good: "Make this email more concise and professional. Remove unnecessary words."
+## Before & After Examples
 
-### Asking Too Much at Once
-- Bad: "Write me a business plan, marketing strategy, budget, and timeline."
-- Good: "Let's start with the executive summary of my business plan. I'll share details about my business idea first."
+### Email Example
 
-### Not Providing Enough Context
-- Bad: "Respond to this message."
-- Good: "This email is from a frustrated customer. Help me write a calm, helpful response that addresses their concern about shipping delays."
+**Before:**
+> "Write a professional email about the upcoming office closure for the holidays."
 
-### Expecting Mind-Reading
-- Bad: "You know what I mean."
-- Good: "To clarify, I want the summary to focus on the budget implications, not the technical details."
+**After:**
+> "Write a professional email to all staff about the office closure from December 24-26 for the holidays. Keep the tone friendly and include the emergency contact number (555-1234). Keep it under 150 words."
 
-## Quick Tips for Better Results
+**Why it's better:** Added WHO, WHAT details, TONE, LENGTH
 
-<Cards>
-  <Card
-    title="Start Simple"
-    description="Begin with a basic request. Add detail if the response isn't quite right."
-  />
-  <Card
-    title="Ask for Revisions"
-    description="Say 'make it shorter' or 'make it more formal' - AI can refine its responses."
-  />
-  <Card
-    title="Use 'Act As'"
-    description="Saying 'Act as a [role]' helps set the tone and expertise level."
-  />
-  <Card
-    title="Be Patient"
-    description="If the first response isn't perfect, refine your prompt and try again."
-  />
-</Cards>
+---
+
+### Brainstorming Example
+
+**Before:**
+> "Give me 10 ideas for our employee appreciation event."
+
+**After:**
+> "Give me 10 creative ideas for an employee appreciation event in April. Budget is $500, we have 30 staff members, and it should take 2 hours during a workday. Focus on team building and fun."
+
+**Why it's better:** Added NUMBER, WHEN, BUDGET, SIZE, GOALS
+
+---
+
+### Explaining Example
+
+**Before:**
+> "Explain what a VPN is in simple terms."
+
+**After:**
+> "Explain what a VPN is to a general audience with little technical knowledge. Provide a clear and concise overview of what a VPN does, how it works, and why people use it. Use a friendly and straightforward tone. Keep the explanation under 150 words."
+
+**Why it's better:** Added WHO, WHAT details, TONE, and LENGTH
+
+## Simple Template
+
+Here's an easy template to start with:
+
+```
+Help me [your task] for [your audience] about [topic].
+Tone should be [friendly/professional/formal].
+Keep it [brief/detailed/under X words].
+Include [any specific requirements].
+```
+
+### Template Examples
+
+**For Administrative Staff:**
+> "Help me write a memo for all department staff about the new parking policy changes starting January 1st. Tone should be professional but friendly. Keep it under 200 words. Include the key changes and where to find more info."
+
+**For Faculty:**
+> "Help me create 5 discussion questions for my Introduction to Psychology students about stress and coping. The questions should encourage personal reflection and application. Format as a numbered list."
+
+**For Event Coordinators:**
+> "Help me create an event timeline for a 2-hour faculty workshop. Include: setup (30 min), registration (15 min), presentation (60 min), Q&A (15 min). Format as a table with time slots and tasks."
 
 ## Next Steps
 
 <Cards>
   <Card
-    title="Ready-to-Use Templates"
-    description="Copy-paste prompts for common tasks"
-    href="/docs/prompt-engineering/examples"
+    title="The Perfect Prompt Formula"
+    description="A simple 4-part formula for great prompts"
+    href="/docs/prompt-engineering/formula"
+  />
+  <Card
+    title="Power-Ups"
+    description="Advanced techniques to level up your prompts"
+    href="/docs/prompt-engineering/power-ups"
+  />
+  <Card
+    title="Tips & Mistakes"
+    description="Pro tips and common mistakes to avoid"
+    href="/docs/prompt-engineering/tips"
   />
 </Cards>

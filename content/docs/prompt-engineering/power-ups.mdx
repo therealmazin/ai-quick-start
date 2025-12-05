@@ -1,0 +1,202 @@
+---
+title: Prompt Power-Ups
+description: Advanced techniques to level up your AI prompts
+---
+
+# Prompt Power-Ups
+
+Once you've got the basics, here are some techniques to get even better results.
+
+## 1. Add Role Assignment
+
+Tell the AI to "act as" a specific expert. This changes how it approaches your request.
+
+```
+Act as an experienced event planner. Help me design a 3-hour
+professional development workshop for faculty. Include: agenda,
+activities, and materials needed.
+```
+
+**More examples:**
+- "Act as a grant writing expert..."
+- "Act as a patient technical support specialist..."
+- "Act as an academic advisor with 10 years of experience..."
+
+<Callout type="info">
+Roles work best when they're relevant to your task. An "event planner" role for event planning, a "writing coach" role for feedback on writing.
+</Callout>
+
+---
+
+## 2. Request Multiple Options
+
+Don't settle for the first version. Ask for variations.
+
+```
+Give me 3 different versions of this announcement:
+one formal, one casual, one creative.
+
+[paste your text]
+```
+
+**More examples:**
+- "Give me 3 different subject lines for this email: one professional, one creative, one urgent."
+- "Create this in two versions: one for students, one for faculty."
+- "Suggest 5 different approaches to this problem, ranked by effort required."
+
+---
+
+## 3. Add Constraints for Better Results
+
+Specific constraints lead to better outputs.
+
+```
+Create a survey for employee satisfaction. Include exactly
+10 questions: 5 multiple choice, 3 rating scale (1-5), and
+2 open-ended. Focus on work environment, communication, and
+professional development.
+```
+
+**Types of constraints:**
+- **Quantity:** "exactly 5 bullet points", "10 questions", "3 options"
+- **Length:** "under 200 words", "2 paragraphs", "one page"
+- **Structure:** "formatted as a table", "numbered list", "Q&A format"
+- **Focus:** "focus only on budget", "emphasize timeline", "highlight risks"
+
+---
+
+## 4. Specify Audience Level
+
+The same topic explained differently for different audiences.
+
+```
+Explain what a firewall is:
+- Version 1: For non-technical staff
+- Version 2: For IT-savvy users
+- Version 3: For an executive summary
+```
+
+**Why it matters:** A technical explanation for non-technical staff will confuse them. A simplified explanation for experts will waste their time.
+
+---
+
+## 5. Ask for Reasoning
+
+When you need to understand the "why", ask for it.
+
+```
+I need to schedule 5 committee meetings over 2 months,
+avoiding conflicts. Suggest a schedule and explain your
+reasoning for the timing.
+```
+
+**Other ways to ask:**
+- "Explain your thought process"
+- "Walk me through your reasoning"
+- "Why did you recommend this approach over alternatives?"
+
+---
+
+## 6. Use "More Like This"
+
+When you get something you love, use it as a template.
+
+```
+This first paragraph is exactly the tone I want.
+Rewrite the rest to match this style.
+```
+
+**More examples:**
+- "Generate 5 more examples just like this one: [paste example]"
+- "This format works perfectly. Create 3 more in the same format for different topics."
+
+---
+
+## Power-Up Examples by Role
+
+### For Administrative Staff
+
+```
+Act as an administrative procedures expert. Review this office
+workflow process and suggest 3 improvements for efficiency.
+Focus on reducing redundant steps and improving communication.
+Format as a before/after comparison.
+```
+
+### For Faculty
+
+```
+I teach Introduction to Biology to 100 freshmen. Create an
+engaging icebreaker activity for the first day that:
+- Relates to course content
+- Takes 15 minutes
+- Requires no materials
+- Helps students learn each other's names
+
+Include step-by-step instructions.
+```
+
+### For Academic Advisors
+
+```
+Create a FAQ document for students about changing majors.
+Include:
+- 10 common questions
+- Clear answers (2-3 sentences each)
+- Relevant deadlines
+- Who to contact
+
+Tone should be supportive and reassuring.
+```
+
+### For Event Coordinators
+
+```
+I'm planning a faculty recognition dinner for 75 people.
+Budget is $3000. Create:
+1. A timeline for the 3-hour event
+2. A checklist of tasks by week (starting 6 weeks out)
+3. A list of potential issues with mitigation strategies
+
+Format as three separate sections with headers.
+```
+
+---
+
+## Combining Power-Ups
+
+You can use multiple techniques in one prompt:
+
+```
+Act as an experienced curriculum designer. [ROLE]
+
+I teach a 200-level marketing course and students struggle
+with case study analysis. [CONTEXT]
+
+Create a scaffolded assignment that builds case analysis skills
+over 4 weeks. [GOAL]
+
+Include:
+- Weekly objectives
+- Assignment descriptions
+- Rubric criteria
+- Exactly 4 progressive difficulty levels [CONSTRAINTS]
+
+Format as a table with one row per week. [FORMAT]
+
+Also provide 2 alternative approaches and explain why you
+recommend your primary suggestion. [MULTIPLE OPTIONS + REASONING]
+```
+
+<Cards>
+  <Card
+    title="Tips & Mistakes"
+    description="Pro tips and common mistakes to avoid"
+    href="/docs/prompt-engineering/tips"
+  />
+  <Card
+    title="Back to Basics"
+    description="Review the fundamentals"
+    href="/docs/prompt-engineering"
+  />
+</Cards>
