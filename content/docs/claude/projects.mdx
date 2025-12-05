@@ -1,0 +1,156 @@
+---
+title: Claude Projects & Custom Instructions
+description: How to use Projects to organize your work and set custom instructions
+---
+
+# Projects & Custom Instructions in Claude
+
+Claude has a feature called **Projects** that lets you organize your work and give Claude custom instructions. Think of it like creating a dedicated workspace for a specific task or topic.
+
+## What Are Projects?
+
+A Project is like a folder where you can:
+- Keep related conversations together
+- Upload documents for Claude to reference
+- Set custom instructions that apply to all chats in that project
+
+<Callout type="info">
+Projects are available on Claude Pro and Team plans. Free users can still use regular chats with Claude.
+</Callout>
+
+## Why Use Projects?
+
+**Without Projects:**
+Every time you start a new chat, you have to re-explain your context:
+> "I'm working on a research project about renewable energy. Here's my document. Please summarize it in an academic tone..."
+
+**With Projects:**
+Claude already knows your context:
+> "Summarize this document."
+
+Claude remembers your instructions and has access to your uploaded files!
+
+## How to Create a Project
+
+<Steps>
+<Step>
+**Open Projects**
+
+Look for **"Projects"** in the left sidebar and click it. Or go directly to [claude.ai/projects](https://claude.ai/projects).
+</Step>
+<Step>
+**Create New Project**
+
+Click **"+ New Project"** in the top-right corner.
+</Step>
+<Step>
+**Name Your Project**
+
+Give your project a clear name (e.g., "Course Materials", "Research Assistant", "Email Helper").
+
+Note: Claude doesn't see the project name, so pick something that helps *you* stay organized.
+</Step>
+<Step>
+**Set Custom Instructions**
+
+Click **"Set Custom Instructions"** and add your preferences (see examples below).
+</Step>
+<Step>
+**Add Project Knowledge (Optional)**
+
+Upload files or documents that Claude should reference across all conversations in this project.
+</Step>
+</Steps>
+
+## Setting Custom Instructions
+
+Custom instructions tell Claude how to behave in this project. Click "Set Custom Instructions" and add your preferences.
+
+### Example: Email Assistant
+
+```
+Role: You are my professional email assistant.
+
+Style:
+- Write emails that are professional but friendly
+- Keep emails concise (3-4 paragraphs max)
+- Use clear subject lines
+- Always end with an appropriate sign-off
+
+Format:
+- Present emails ready to copy-paste
+- If I just give you bullet points, turn them into a polished email
+```
+
+### Example: Research Helper
+
+```
+Role: You are my research assistant.
+
+Context: I work in [your field] and need help analyzing academic papers.
+
+Style:
+- Use clear, academic language
+- Cite sources when relevant
+- Present information in a structured way
+
+Format:
+- Use headings and bullet points
+- Summarize key findings first, then provide details
+- Flag any limitations or caveats
+```
+
+### Example: Simple Helper
+
+```
+I'm new to using AI assistants.
+
+Please:
+- Use simple, everyday language
+- Avoid technical jargon
+- Explain things step by step
+- Ask me if something is unclear
+```
+
+## Adding Project Knowledge
+
+You can upload files to your project's "Knowledge" section. Claude will reference these files in all conversations within that project.
+
+**Supported file types:**
+- PDF documents
+- Word documents (.docx)
+- Text files (.txt)
+- HTML files
+- Spreadsheets (.csv)
+- Code files
+
+**How to add files:**
+1. In your project, look for the **Knowledge** section (usually on the right side)
+2. Click the **+** button
+3. Upload your files or paste text
+
+<Callout type="info">
+You can upload multiple files, but the total content must fit within Claude's context limit (about 500 pages worth of text).
+</Callout>
+
+## Tips for Using Projects
+
+### Keep Projects Focused
+One project = one purpose. Create separate projects for different tasks:
+- "Meeting Notes Summarizer"
+- "Course Material Helper"
+- "Email Drafting"
+
+### Update Knowledge Regularly
+If your reference documents change, update them in the project knowledge section.
+
+### Save Useful Outputs
+If Claude creates something useful (like a template or summary), you can add it to your project knowledge for future reference.
+
+## Free Users: Custom Instructions Without Projects
+
+If you're on the free plan, you can still give Claude instructions at the start of each conversation:
+
+> "For this conversation, please act as my writing assistant. Keep responses concise and use bullet points. I work in education and prefer a professional but friendly tone."
+
+You'll need to repeat this for each new chat, but it works well for occasional use.
